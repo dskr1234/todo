@@ -1,0 +1,142 @@
+.todo-outer-conainer{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  background-color: black;
+
+}
+.input-box{
+  height: 40px;
+  width: 350px;
+  font-size: 25px;
+  outline: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: whitesmoke;
+  background: transparent;
+  padding-left: 10px;
+
+}
+.input-box:hover{
+  border: 2px solid white;
+}
+.todo-list-head{
+  color: red;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.task-container{
+  height: auto;
+  width: 50%;
+  border: 2px solid red;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 20px;
+  min-height: 40px;
+  padding: 15px;
+}
+.task-item{
+  color: white;
+  font-size: 25px;
+}
+.task-btn{
+  height: 30px;
+  width: 120px;
+  border: 2px solid white;
+  color: red;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  opacity:0.5;
+  margin: 20px;
+  cursor: pointer;
+}
+.task-item-container{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete-btn{
+  height: 30px;
+  width: 120px;
+  border: 2px solid white;
+  color: red;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  opacity:0.5;
+
+  cursor: pointer;
+}
+.task-pening-head{
+  color: white;
+  font-weight: bold;
+}
+.check{
+  height: 25px;
+  width: 50px;
+  background-color: red;
+  color: white;
+}
+.del-cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width:768px) {
+  .task-container{
+  height: auto;
+  width: 80vw;
+  border: 2px solid red;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 20px;
+  min-height: 20px;
+  padding: 15px;
+}
+.task-item{
+  color: white;
+  font-size: 18px;
+}
+.check{
+  height: 15px;
+  width: 35px;
+}
+.delete-btn{
+  height: 30px;
+  width: 80px;
+  border: 2px solid white;
+  color: red;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: white;
+  opacity:0.5;
+
+  cursor: pointer;
+}
+.input-box{
+  height: 30px;
+  width: 280px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: whitesmoke;
+  background: transparent;
+  padding-left: 10px;
+
+}
+
+}
