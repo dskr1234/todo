@@ -138,5 +138,9 @@
   padding-left: 10px;
 
 }
-
+.task-pening-head{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
 }
